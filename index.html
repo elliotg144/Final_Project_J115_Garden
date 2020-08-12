@@ -1,21 +1,60 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lora:wght@500&display=swap" rel="stylesheet">
 
     <title>J115 Final Project</title>
     <style>
       
-      body{
-    
-        
-  
-  
-  
+      
+      ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #EEE8AA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+      
+      
+      
+      h1{font-family:  'Acme', sans-serif;
+font-family: 'Lora', serif;}
+      .jumbotron{background-image: url(https://media.journalism.berkeley.edu/upload/2020/08/15971932446e09a1f.jpg)}
+      h2, p{padding: padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+        padding-left: 80px; 
+        border: 2px solid white;
+        border-radius: 5px;}
+      
+      body{
+        background-color: #EEE8AA;
+        border: 24px;
+    
+  
+  
+  margin: 5px;
+  padding: 10px;
   background-image: url() ;
 }
 .slidershow{
@@ -39,7 +78,7 @@
 .bar{
   width: 50px;
   height: 10px;
-  border: 2px solid #fff;
+  border: 2px solid black;
   margin: 7px;
   cursor: pointer;
   transition: 0.5s;
@@ -51,9 +90,9 @@ input[name="r"]{
   
 }
 .slides{
-  width: 500%;
+  width: 400%;
   height: 100%;
-  display: flex;
+  display:flex; overflow: hidden;
   
 }
 .slide{
@@ -86,8 +125,13 @@ input[name="r"]{
       
     <header class="jumbotron">
         <h1 class="text-center display-3">How to Repair Your Garden After a Tropical Storm</h1>
-        <p class="lead text-center">One Big Cycle</p>
-    </header>
+        <p class="lead text-center">Use Your Twine and Try Not to Whine</p>
+    <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Blog</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul></header>
       
      <div class="container">
     
@@ -103,7 +147,7 @@ input[name="r"]{
                       
                       </div>
                       <div class="slide">
-                      <img src="https://media.journalism.berkeley.edu/upload/2020/08/1597120120a3966b8.jpg" style="width: 100%;">
+                      <img src="https://media.journalism.berkeley.edu/upload/2020/08/1597189588796c3b2.jpg" style="width: 100%;">
                       </div>
                       <div class="slide">
                       <img src="https://media.journalism.berkeley.edu/upload/2020/08/15971166163200b1b.jpg" alt="Los Angeles" alt="Hanging Trellis" style="width: 100%;">
@@ -152,10 +196,14 @@ input[name="r"]{
         
         <div class="row justify-content-center mb-5">
             <div class="col-12 col-md-10">
-                <h2>Tying it Together</h2>
-                <p>After Tropical Storm Isaias came through the Eastern side of the United States, gardens throughout the area were severely displaced. These storms often come come quick leave blown down trees, split stalks, and scattered debris in their path. In order to repair, gardeners have introduced jute, stakes, and a whole lot of out-of-the-box thinking to bring things close to the way they were.</p>
-                <p>Jute is a common type of twine used to reattach and and hold together split stalks. It's comprised of hemp fibers which can withstand high rates of stress while maintaining ultimate  flexibility. A wide variety of knots are used to sinch together damaged plants.  </p>
-                <img class="d-block img-fluid" src="https://media.journalism.berkeley.edu/upload/2020/08/15971282009e831c9.jpg"> 
+                <h2>Feeling Under the Weather</h2>
+              <img class="d-block img-fluid" src="https://media.journalism.berkeley.edu/upload/2020/08/159720625047b151d.jpg">
+               <h6>Rough Patch</h6> <p>After Tropical Storm Isaias came through the Eastern side of the United States, gardens throughout the area were severely displaced. These storms often come come quick leave blown down trees, split stalks, and scattered debris in their path. In order to repair, gardeners have introduced jute, stakes, and a whole lot of out-of-the-box thinking to bring things close to the way they were.</p>
+                <h3>Tying it Together</h3><p>Jute is a common type of twine used to reattach and and hold together split stalks. It's comprised of hemp fibers which can withstand high rates of stress while maintaining ultimate  flexibility. A wide variety of knots are used to sinch together damaged plants.  </p>
+                <img class="d-block img-fluid" src="https://media.journalism.berkeley.edu/upload/2020/08/15971932446e09a1f.jpg"> 
+                <img class="d-block img-fluid" src="https://media.journalism.berkeley.edu/upload/2020/08/159719460987cce73.jpg">
+                <img class="d-block img-fluid"
+               src="https://media.journalism.berkeley.edu/upload/2020/08/1597204034074bcec.jpg">
             </div>
         </div>  
       
@@ -165,18 +213,19 @@ input[name="r"]{
         
         <div class="row justify-content-center mb-5">
             <div class="col-12 col-md-10">
-                <p>Marty's been through enough storms to learn how to appreciate them at this point. Although they require more clean-up than he prefers, "ya know, if they didn't always break my stuff, I'd really think they're something beautiful, sort of like fire".</p>
+               <h4>Interview with Marty the Farmer</h4> <p>
+              E: How many of these storms do you think you've been through since you've moved here?</p>
+              
+              <p>M: I'd say probably around 5 real rough ones. I've learned to appreaciate them more now though, they tend to teach you something. I've definitely learned how to tie better knots and strategies when it comes to staking</p>
+              
+             <p> E: Tell me about that, your tips and tricks. </p>
+              <p>M: Well, I first thing I did after my first storm was buy a post driver. I'd have to say it's one of my favorite tools up here, you just get to slam the crap out of each stake you place. Aside from that, I've incoporated trellaces into almost all portions of my gardens, whether I'm growing things that cling or not. </p>
+              <p>E: What would you say is your least favorite part of the storms that hit here?</p>
+              <p>M: My least favorite part would be coming out the next day and seeing the wreck. You cross your fingers but sometimes the winds are too much. It teaches you to be grateful though. At least I can go to the grocery store and pick up whatever I don't have, I couldn't imagine growing to eat, like back in earlier times</p>
+              
             </div>
             
-        </div>
         
-        
-        
-        
-        
-        <div class="row justify-content-center mb-5">
-            <div class="col-12 col-md-10">
-                <p>Just like fire, storms offer a soundtrack to go along with their destruction. Looking for a silver lining, "storms offer one of the few soundtracks that never get old". </p>
             </div>
             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/873418342&color=%236e7848&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/blissisignorance" title="BlissisIgnorance" target="_blank" style="color: #cccccc; text-decoration: none;">BlissisIgnorance</a> · <a href="https://soundcloud.com/blissisignorance/storm-isaias-audio" title="Storm Isaias Audio" target="_blank" style="color: #cccccc; text-decoration: none;">Storm Isaias Audio</a></div>
         </div>
@@ -192,7 +241,7 @@ input[name="r"]{
         
         
         
-    </div><!-- closing container -->
+    <!-- closing container -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
